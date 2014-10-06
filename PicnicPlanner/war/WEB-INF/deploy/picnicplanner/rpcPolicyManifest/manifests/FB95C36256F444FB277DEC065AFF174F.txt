@@ -1,0 +1,2 @@
+serviceClass: com.google.gwt.picnicplanner.client.ParkService
+path: 31C655648E2C5F2274F67992C05787DC.gwt.rpc

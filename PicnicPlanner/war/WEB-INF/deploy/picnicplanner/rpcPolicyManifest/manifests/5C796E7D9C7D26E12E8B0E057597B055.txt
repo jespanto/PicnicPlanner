@@ -1,0 +1,2 @@
+serviceClass: com.google.gwt.picnicplanner.client.LoginService
+path: 5F8A546807203BAB1E8CCF59775C4392.gwt.rpc

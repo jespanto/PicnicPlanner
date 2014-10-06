@@ -1,0 +1,252 @@
+.gwt-Anchor:link {color:#B45F04;}
+.gwt-Anchor:visited {color:#B45F04;}
+.gwt-Anchor:hover {color: #dead7e;}
+
+.weatherPanel {
+	background-color: white;
+	border: 1px solid grey;
+}
+
+.weatherPanel:hover {
+	background-image:url('/images/background.png');
+	background-repeat:repeat;
+}
+
+.currentTemp {
+	font-size: 32pt;
+	font-family: 'HelveticaNeue-UltraLight';
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.washroomTable {
+	border: 2px solid #6f7277;
+}
+
+.parkName {
+	font-weight: bold;
+	color: #dead7e;
+	font-size: 18pt;
+	text-shadow: 1px 1px black;
+}
+
+.historyLabel {
+	font-size: 15pt;
+	color: grey;
+}
+
+.moreInfoLink {
+	text-decoration:underline;
+	color: blue;
+	cursor: pointer;
+}
+
+.historyLink {
+	cursor: pointer;
+}
+
+.historyLink:hover {
+	background-color: #F2F2F2;
+}
+
+.returnButton {
+	color: grey;
+	background-color: white;
+	border: 1px solid grey;
+	outline: none;
+	cursor: pointer;
+}
+
+.returnButton:hover {
+	background-color: #F2F2F2;
+}
+
+.returnButton:active {
+	color: white;
+	background-color: grey;
+}
+
+.blinker {
+	font-family: 'HelveticaNeue-UltraLight';
+	font-size: 12pt;
+	color: grey;
+    animation-name: blinker;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {
+    0% { opacity: 1.0;}
+    50% { opacity: 0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0; }
+    100% { opacity: 1.0; }
+}
+
+.imageBlinker {
+	cursor: pointer;
+	
+    animation-name: blinker;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 2;
+}
+
+@-moz-keyframes blinker {
+    0% { opacity: 1.0;}
+    70% { opacity: 0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    70% { opacity: 0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    70% { opacity: 0; }
+    100% { opacity: 1.0; }
+}
+
+.textBoxMessage {
+	font-size: 12pt;
+	color: grey;
+	background-color:rgba(255, 255, 255, 0.0001);
+	border-bottom: 1px solid grey;
+	border-left: 0px hidden white;
+	border-right: 0px hidden white;
+	border-top: 0px hidden white;
+	outline: none;
+}
+
+.textBoxInput {
+	font-size: 12pt;
+	color: black;
+	background-color:rgba(255, 255, 255, 0.0001);
+	border-bottom: 1px solid grey;
+	border-left: 0px solid white;
+	border-right: 0px solid white;
+	border-top: 0px solid white;
+	outline: none;
+}
+
+.largeSearchButton {
+	font-size: 13pt;
+	color: grey;
+	background-color: white;
+	border: 1px solid grey;
+	outline: none;
+	cursor: pointer;
+}
+
+.largeSearchButton:hover {
+	background-color: #F2F2F2;
+}
+
+.largeSearchButton:active {
+	color: white;
+	background-color: grey;
+}
+
+.filterHeading {
+	font-weight: bold;
+	color: #B45F04;
+}
+
+.gwt-ListBox {
+	font-size: 9pt;
+	border: 1px solid grey;
+	outline: none;
+}
+
+.gwt-ListBox:hover {
+	background-image:url('/images/background.png');
+	background-repeat:repeat;
+}
+
+.greyBorder {
+	border: 1px solid grey;
+}
+
+.smallFont {
+	font-size: 9pt;
+}
+
+.verySmallFont {
+	font-size: 8pt;
+}
+
+.largeFont {
+	font-size: 12pt;
+}
+
+.smallGreyFont {
+	font-size: 9pt;
+	color: grey;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+.gwt-TabPanel {
+	background-color: white;
+}
+
+.gwt-TabBar {
+	background-image:url(/images/background.png) !important;
+	background-repeat:repeat !important;
+}
+
+.gwt-TabBar .gwt-TabBarItem {
+	font-size: 9pt !important;
+  	text-align: center !important;
+	color: grey !important;
+	background-color: white !important;
+	border: 1px solid grey !important;
+	outline: none !important;
+}
+
+.gwt-TabPanelBottom {
+    background-color: white;
+    border: none !important;
+}
